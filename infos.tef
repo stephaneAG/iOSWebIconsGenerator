@@ -1,0 +1,3 @@
+# the following 'll be useful to generate the iOS versions of the image(s)
+convert -size 72x72 xc:black <input_name> -resize 72x72 -gravity center -compose over -composite -quality 75 <output_name>
+# etc ( .. )
